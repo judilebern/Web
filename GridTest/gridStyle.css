@@ -1,0 +1,120 @@
+body {
+    background-color: #C4DFDF;
+    font-family: Snell Roundhand, cursive;
+    color: #397979;
+}
+
+nav {
+    background: #E3F4F4 linear-gradient(to right, #E3F4F4, #F8F6F4);
+    padding-top: 15px;
+}
+
+aside {
+    background: #E3F4F4 linear-gradient(to left, #E3F4F4, #F8F6F4);
+}
+
+main {
+    background: #F8F6F4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #D2E9E9 linear-gradient(to bottom, #D2E9E9, #F8F6F4);
+}
+
+footer {
+    background: #D2E9E9 linear-gradient(to top, #D2E9E9, #F8F6F4);
+    text-align: center;
+    font-size: 12px;
+}
+
+main > div > img {
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+}
+
+header > div > img {
+    width: 150px;
+    height: 100px;
+}
+
+/*!*!*TOLIMESNE DALIS GRIDINIS FORMATAVIMAS*!*!*/
+
+body {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-auto-rows: 100px auto 100px;
+    grid-template-areas:
+        "h h h"
+        "n m a"
+        "f f f";
+}
+
+body > header {
+    grid-area: h;
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-auto-rows: 100px;
+    grid-template-areas: "l t s"
+}
+
+body > aside {
+    grid-area: a;
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: "c" "ad"
+}
+
+.calendar {
+    grid-area: c;
+}
+
+.calendar > img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.add {
+    grid-area: ad;
+    border-top: 1px solid #9cc9c9;
+}
+
+.add > img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.logo {
+    grid-area: l;
+}
+
+h1 {
+    grid-area: t;
+    padding-left: 10px;
+
+}
+
+.search {
+    grid-area: s;
+    justify-self: end;
+    align-self: self-end;
+}
+
+footer {
+    grid-area: f;
+}
+
+main {
+    grid-area: m;
+}
+
+

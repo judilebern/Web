@@ -1,0 +1,31 @@
+
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-auto-rows: 100px auto 250px;
+    grid-gap: 10px;
+    grid-template-areas:
+        "h h"
+        "a m"
+        "f f";
+}
+
+body > header {
+    grid-area: h;
+}
+
+/*body > header > nav {
+    grid-area: n;
+}*/
+
+body > aside {
+    grid-area: a;
+}
+
+body > main {
+    grid-area: m;
+}
+
+body > footer {
+    grid-area: f;
+}

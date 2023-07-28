@@ -1,0 +1,30 @@
+
+.chess {
+    border: 1px solid blue;
+    width: 550px;
+}
+
+.chess > div {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: gray;
+/*    position: sticky;
+    z-index: 100;*/
+    display: inline-block;
+
+}
+
+.chess > div:nth-of-type(-4n + 14) {
+    background-color: lightblue;
+}
+
+.chess > div:nth-of-type(-4n + 12) {
+    background-color: lightgreen;
+}
+
+.chess > div:nth-of-type(2n + 16) {
+    background-color: lightpink;
+}

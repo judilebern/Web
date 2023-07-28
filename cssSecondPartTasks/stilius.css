@@ -1,0 +1,14 @@
+.photo {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3.33%;
+    grid-gap: 5%;
+}
+
+div > img {
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+}
+

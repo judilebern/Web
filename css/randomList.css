@@ -1,0 +1,19 @@
+
+span {
+    background : lightblue;
+}
+
+ul li:nth-child(2) ul {
+    background: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+
+ul > li:nth-child(3) > ul > li:nth-child(3), ul > li:nth-child(1) > ul > li:nth-child(2) {
+    background : red;
+}
+
+ul > li > ul > li:nth-of-type(even) {
+    font-weight: bold;
+}
