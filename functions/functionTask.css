@@ -1,0 +1,32 @@
+html {
+    background-color: #4A55A2;
+    color: #C5DFF8;
+}
+
+body {
+    padding: 20px;
+}
+
+#fnum, #snum {
+    background-color: #C5DFF8;
+    border: #7895CB;
+    border-radius: 8px;
+}
+
+hr {
+    height: 1px;
+    background-color: #7895CB;
+    border: none;
+}
+
+body > form > p {
+    display: inline;
+    justify-self: center;
+}
+
+form > img {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
