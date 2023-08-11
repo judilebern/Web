@@ -1,0 +1,86 @@
+[
+    {
+        "title" : "Stalas",
+        "price" : 160,
+        "manufacturer" : "GintaroBaldai",
+        "material" : "Medis",
+        "quantity" : 45
+    },
+    {
+        "title" : "Kede",
+        "price" : 50,
+        "manufacturer" : "GintaroBaldai",
+        "material" : "Plastikas",
+        "quantity" : 120
+    },
+    {
+        "title" : "Sofa",
+        "price" : 240,
+        "manufacturer" : "LMDP",
+        "material" : "Gobelenas",
+        "quantity" : 3
+    },
+    {
+        "title" : "Spinta",
+        "price" : 520,
+        "manufacturer" : "MURRIETA",
+        "material" : "Medis",
+        "quantity" : 15
+    },
+    {
+        "title" : "Komoda",
+        "price" : 139,
+        "manufacturer" : "MURRIETA",
+        "material" : "Medis",
+        "quantity" : 20
+    },
+    {
+        "title" : "Lentyna",
+        "price" : 406,
+        "manufacturer" : "GintaroBaldai",
+        "material" : "Azuolas",
+        "quantity" : 3
+    },
+    {
+        "title" : "Sofa",
+        "price" : 980,
+        "manufacturer" : "Columbus",
+        "material" : "Eko oda",
+        "quantity" : 9
+    },
+    {
+        "title" : "Sofa",
+        "price" : 580,
+        "manufacturer" : "Columbus",
+        "material" : "Eko oda",
+        "quantity" : 11
+    },
+    {
+        "title" : "Veidrodis",
+        "price" : 120,
+        "manufacturer" : "VMARS",
+        "material" : "Stiklas",
+        "quantity" : 6
+    },
+    {
+        "title" : "Veidrodis",
+        "price" : 145,
+        "manufacturer" : "VMARS",
+        "material" : "Stiklas",
+        "quantity" : 13
+    },
+    {
+        "title" : "Kede",
+        "price" : 32,
+        "manufacturer" : "VMARS",
+        "material" : "Stiklas",
+        "quantity" : 12
+    },
+    {
+        "title" : "Lova",
+        "price" : 1200,
+        "manufacturer" : "Mamia",
+        "material" : "Gobelenas",
+        "quantity" : 3
+    }
+]

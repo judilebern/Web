@@ -35,6 +35,12 @@ function getMenuData() {
         },
         {
             href: '/taskInputArrayMethods/inputArrayMethods.html', title: 'Task with input, array methods'
+        },
+        {
+            href: '/objectsTask1/objectTask1.html', title: 'Object task 1'
+        },
+        {
+            href: '/products/index.html', title: 'Products store'
         }
     ];
 }

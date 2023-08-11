@@ -1,0 +1,25 @@
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #9cc9c9;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+}
+div {
+    width: 300px;
+    height: 150px;
+    background-color: #397979;
+}
+
+nav > div {
+    width: 300px;
+    height: 150px;
+    background-color: #4778f6;
+}
+
+form {
+    width: 300px;
+    height: 150px;
+    background-color: #3156b4;
+}
